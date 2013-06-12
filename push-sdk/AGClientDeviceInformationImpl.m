@@ -27,6 +27,7 @@
 @synthesize deviceType = _deviceType;
 @synthesize alias = _alias;
 @synthesize category = _category;
+@synthesize mobileVariantInstanceID = _mobileVariantInstanceID;
 
 - (id)init {
     self = [super init];

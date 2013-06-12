@@ -39,6 +39,8 @@
  */
 @property (copy, nonatomic) NSString* mobileVariantID;
 
+@property (copy, nonatomic) NSString* mobileVariantInstanceID;
+
 
 /**
  * The device type (e.g. iPhone or iPod)

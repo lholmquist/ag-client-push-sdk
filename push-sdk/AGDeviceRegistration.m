@@ -52,7 +52,8 @@
 
 
     // add the variant ID:
-    [_client setDefaultHeader:@"ag-mobile-variant" value:clientInfoObject.mobileVariantID];
+    [_client setDefaultHeader:@"ag-push-app" value:clientInfoObject.mobileVariantID];
+    [_client setDefaultHeader:@"ag-mobile-app" value:clientInfoObject.mobileVariantInstanceID];
     
     // POST the data to the server:
     [_client postPath:@"rest/registry/device" parameters:mobileVariantInstanceData
